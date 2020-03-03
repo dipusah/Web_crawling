@@ -26,8 +26,3 @@ with open('onlinekhabar-news.txt','w',encoding='utf-8') as news_file:  #UTF-UNIC
          print(real_content.text)
          news_file.write(str(real_content))
          news_file.write('\n')
-
-'''
-#  -:-  Id
-.  -:-  Class
-'''
